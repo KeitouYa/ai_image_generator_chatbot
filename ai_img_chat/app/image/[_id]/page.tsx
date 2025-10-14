@@ -3,14 +3,20 @@ import { getImageFromDb } from "@/actions/image";
 import Image from "next/image";
 import ImageCard from "@/components/cards/image-card";
 
+// ✅ 在 Next 15 中，PageProps 的 params 可能是 Promise，需要显式声明
 interface ImagePageProps {
-  params: {
+  params: Promise<{
     _id: string;
-  };
+  }>;
 }
 
 export default async function ImagePage({ params }: ImagePageProps) {
-  const image = await getImageFromDb(params._id);
+  // ✅ 等待 Promise 解析
+  const { _id } = await params;
+
+  // ✅ 使用解析后的 _id 访问数据库
+  const image = await getImageFromDb(_id);
+
   return (
     <div>
       <div className="flex flex-row justify-center mt-20">
@@ -22,7 +28,7 @@ export default async function ImagePage({ params }: ImagePageProps) {
           <Image
             src={image.url}
             alt={image.name}
-            layout="fill"
+            fill
             className="rounded-lg object-contain"
           />
         </div>

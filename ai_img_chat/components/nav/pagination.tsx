@@ -13,7 +13,7 @@ export default function Pagination({ page, totalPages }: PaginationProps) {
     <nav className="flex justify-center fixed-bottom opacity-75 mb-10">
       <ul className="flex justify-center items-center space-x-2 mt-5">
         {page > 1 && (
-          <li>
+          <li key={page}>
             <Link href={`?page=${page - 1}`}>
               <Button variant="ghost">
                 <ChevronsLeft />
@@ -25,7 +25,7 @@ export default function Pagination({ page, totalPages }: PaginationProps) {
         {Array.from({ length: totalPages }, (_, i) => {
           const p = i + 1;
           return (
-            <li>
+            <li key={p}>
               <Link href={`?page=${p}`}>
                 <Button variant={`${page == p ? "secondary" : "ghost"}`}>
                   {p}
@@ -36,7 +36,7 @@ export default function Pagination({ page, totalPages }: PaginationProps) {
         })}
 
         {page < totalPages && (
-          <li>
+          <li key={page}>
             <Link href={`?page=${page + 1}`}>
               <Button variant="ghost">
                 <ChevronsRight />

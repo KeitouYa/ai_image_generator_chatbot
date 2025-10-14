@@ -28,9 +28,10 @@ export function HeroImageSlider() {
       <Image
         src={currentImage}
         alt="ai image generator"
-        layout="fill"
+        fill
         objectFit="cover"
         className="rounded-[20px]"
+        priority
       />
       <ThumbnailRow
         currentImage={currentImage}

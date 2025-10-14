@@ -9,6 +9,8 @@ import { nanoid } from "nanoid";
 import { currentUser } from "@clerk/nextjs/server";
 import db from "@/utils/db";
 import Image from "@/models/image";
+import Credit from "@/models/credits";
+import Credits from "@/components/nav/credits";
 
 const replicate = new Replicate({
   //get your token from https://replicate.com/account
@@ -38,6 +40,20 @@ export async function generateImageAi(imagePrompt: string) {
   try {
     //connect to db
     await db();
+
+    //1.check if user has enough credits
+    const userCredit = await Credit.findOne({ userEmail });
+    if (!userCredit || userCredit.credits < 1) {
+      return {
+        success: false,
+        _id: null,
+        credits: userCredit?.credits,
+      };
+    }
+
+    //2. reduce the credit by 1
+    userCredit.credits -= 1;
+    await userCredit.save();
 
     //generate image logic here
     const input = {
@@ -84,6 +100,7 @@ export async function generateImageAi(imagePrompt: string) {
     return {
       success: true,
       _id: image._id,
+      credits: userCredit.credits, //this can be used to update the UI instantly
     };
   } catch (err) {
     throw err instanceof Error ? err : new Error(String(err));
