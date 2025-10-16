@@ -33,6 +33,7 @@ AI SaaS Image Generator & Chatbot with React, Next.js & TypeScript
 
 <img width="783" height="834" alt="image" src="https://github.com/user-attachments/assets/a092c680-25aa-4e10-80ee-fc7d4dcc37f7" />
 
+<img width="871" height="894" alt="image" src="https://github.com/user-attachments/assets/3beaa05d-289d-4791-aeb5-754edfa627b7" />
 
 
 “Chat Interface Screenshot” 展示 AI 聊天界面
