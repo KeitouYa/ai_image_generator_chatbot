@@ -16,9 +16,12 @@ All generated images are managed through **Cloudinary** and deployed on **Vercel
 - Deployed on **Vercel** with SEO optimization
 
 <img width="897" height="876" alt="image" src="https://github.com/user-attachments/assets/9f83da41-a5ff-4117-a859-7aec70bc0ca4" />
-<img width="598" height="518" alt="image" src="https://github.com/user-attachments/assets/46c7da3d-2cbd-4b8f-8f85-d5d2af6f5017" />
+
 <img width="1074" height="761" alt="image" src="https://github.com/user-attachments/assets/4adc46f0-c31c-42eb-a39b-e7e19408a2b5" />
 <img width="1034" height="902" alt="image" src="https://github.com/user-attachments/assets/9ff27bd8-61c4-4004-a876-78bde344f850" />
+
+<img width="598" height="518" alt="image" src="https://github.com/user-attachments/assets/46c7da3d-2cbd-4b8f-8f85-d5d2af6f5017" />
+
 <img width="729" height="754" alt="image" src="https://github.com/user-attachments/assets/d27a42b6-3c04-4b11-96af-0c2bd10cb595" />
 ---
 
