@@ -32,11 +32,7 @@ AI SaaS Image Generator & Chatbot with React, Next.js & TypeScript
 ✅ Deployed on Vercel with Global Accessibility
 
 <img width="783" height="834" alt="image" src="https://github.com/user-attachments/assets/a092c680-25aa-4e10-80ee-fc7d4dcc37f7" />
-
-<img width="871" height="894" alt="image" src="https://github.com/user-attachments/assets/3beaa05d-289d-4791-aeb5-754edfa627b7" />
-
-
-“Chat Interface Screenshot” 展示 AI 聊天界面
+<img width="1647" height="611" alt="image" src="https://github.com/user-attachments/assets/811dcc1f-ae95-4c52-99b9-03870b7f225f" />
 
 ## ⚙️ Tech Stack
 Layer	Technologies
