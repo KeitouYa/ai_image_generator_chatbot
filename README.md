@@ -1,4 +1,4 @@
-# 🖼️ AI Image Generator & Chatbot — Full-Stack SaaS Platform
+# AI Image Generator & Chatbot — Full-Stack SaaS Platform
 
 A full-stack AI SaaS application that enables users to **generate AI images from text prompts** and **interact with an intelligent chatbot** powered by **Google Gemini AI** and **Replicate AI**.  
 Built with **Next.js 15**, **TypeScript**, **MongoDB**, and **Tailwind CSS**, the app integrates **Clerk Auth** for authentication and **PayPal SDK** for credit-based payments.  
@@ -6,7 +6,7 @@ All generated images are managed through **Cloudinary** and deployed on **Vercel
 
 ---
 
-## 🚀 Features
+## Features
 - Text-to-Image generation using **Gemini AI** and **Replicate AI**
 - AI-powered chatbot for intelligent conversations
 - Secure authentication with **Clerk**
@@ -15,13 +15,11 @@ All generated images are managed through **Cloudinary** and deployed on **Vercel
 - Responsive UI built with **Shadcn UI + Tailwind CSS**
 - Deployed on **Vercel** with SEO optimization
 
-> 📷 **(插图建议1)**：放一张首页截图  
-> 文件名建议：`/assets/homepage.png`  
-> 显示输入框 + 生成图片区域  
->  
-> 📷 **(插图建议2)**：放一张聊天界面截图  
-> 文件名建议：`/assets/chatbot.png`
-
+<img width="897" height="876" alt="image" src="https://github.com/user-attachments/assets/9f83da41-a5ff-4117-a859-7aec70bc0ca4" />
+<img width="598" height="518" alt="image" src="https://github.com/user-attachments/assets/46c7da3d-2cbd-4b8f-8f85-d5d2af6f5017" />
+<img width="1074" height="761" alt="image" src="https://github.com/user-attachments/assets/4adc46f0-c31c-42eb-a39b-e7e19408a2b5" />
+<img width="1034" height="902" alt="image" src="https://github.com/user-attachments/assets/9ff27bd8-61c4-4004-a876-78bde344f850" />
+<img width="729" height="754" alt="image" src="https://github.com/user-attachments/assets/d27a42b6-3c04-4b11-96af-0c2bd10cb595" />
 ---
 
 ## 🧠 Tech Stack
@@ -34,12 +32,6 @@ All generated images are managed through **Cloudinary** and deployed on **Vercel
 | Payments | PayPal SDK |
 | Media Handling | Cloudinary |
 | Deployment | Vercel |
-
-> 📷 **(插图建议3)**：放系统架构图（architecture-diagram.png）  
-> 展示前端、后端、AI、Cloudinary、PayPal 的交互关系  
->  
-> 例如：
-> ![System Architecture](./assets/architecture-diagram.png)
 
 ---
 
