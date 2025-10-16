@@ -22,7 +22,7 @@ All generated images are managed through **Cloudinary** and deployed on **Vercel
 <img width="729" height="754" alt="image" src="https://github.com/user-attachments/assets/d27a42b6-3c04-4b11-96af-0c2bd10cb595" />
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 | Layer | Technologies |
 |:------|:--------------|
 | Frontend | React, Next.js 15 (App Router), TypeScript, Tailwind CSS, Shadcn UI |
@@ -35,7 +35,7 @@ All generated images are managed through **Cloudinary** and deployed on **Vercel
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 ```bash
 # 1️⃣ Clone the repository
 git clone https://github.com/YourUsername/ai_image_generator_chatbot.git
