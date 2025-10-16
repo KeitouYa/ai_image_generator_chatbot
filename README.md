@@ -31,8 +31,12 @@ AI SaaS Image Generator & Chatbot with React, Next.js & TypeScript
 ✅ Dark / Light Theme Support
 ✅ Deployed on Vercel with Global Accessibility
 
+Home Page:
 <img width="783" height="834" alt="image" src="https://github.com/user-attachments/assets/a092c680-25aa-4e10-80ee-fc7d4dcc37f7" />
-<img width="1647" height="611" alt="image" src="https://github.com/user-attachments/assets/811dcc1f-ae95-4c52-99b9-03870b7f225f" />
+
+Chat Page:
+<img width="670" height="536" alt="image" src="https://github.com/user-attachments/assets/f616cbda-9d68-453a-989f-b2a36a8f2fb2" />
+
 
 ## ⚙️ Tech Stack
 Layer	Technologies
