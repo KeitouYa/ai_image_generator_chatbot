@@ -1,110 +1,67 @@
-# AI Image Generator & Chatbot — Full-Stack SaaS Platform
+# 🖼️ AI Image Generator & Chatbot — Full-Stack SaaS Platform
 
-Tech Stack: React · Next.js 15 · TypeScript · Gemini AI · Replicate AI · MongoDB · Cloudinary · Clerk Auth · PayPal · Shadcn UI · Tailwind CSS
-Deployed on: Vercel
+A full-stack AI SaaS application that enables users to **generate AI images from text prompts** and **interact with an intelligent chatbot** powered by **Google Gemini AI** and **Replicate AI**.  
+Built with **Next.js 15**, **TypeScript**, **MongoDB**, and **Tailwind CSS**, the app integrates **Clerk Auth** for authentication and **PayPal SDK** for credit-based payments.  
+All generated images are managed through **Cloudinary** and deployed on **Vercel** for global accessibility.
 
-## Overview
+---
 
-This project is a full-stack AI SaaS application that allows users to:
+## 🚀 Features
+- Text-to-Image generation using **Gemini AI** and **Replicate AI**
+- AI-powered chatbot for intelligent conversations
+- Secure authentication with **Clerk**
+- Credit-based payment system via **PayPal**
+- Cloud image management using **Cloudinary**
+- Responsive UI built with **Shadcn UI + Tailwind CSS**
+- Deployed on **Vercel** with SEO optimization
 
-Generate high-quality AI images from text prompts.
+> 📷 **(插图建议1)**：放一张首页截图  
+> 文件名建议：`/assets/homepage.png`  
+> 显示输入框 + 生成图片区域  
+>  
+> 📷 **(插图建议2)**：放一张聊天界面截图  
+> 文件名建议：`/assets/chatbot.png`
 
-Chat with an intelligent AI chatbot powered by Google Gemini AI.
+---
 
-Manage, preview, and download generated images from a personalized dashboard.
+## 🧠 Tech Stack
+| Layer | Technologies |
+|:------|:--------------|
+| Frontend | React, Next.js 15 (App Router), TypeScript, Tailwind CSS, Shadcn UI |
+| Backend | Next.js Server Actions, MongoDB, Mongoose |
+| AI Integration | Google Gemini AI, Replicate AI |
+| Authentication | Clerk Auth |
+| Payments | PayPal SDK |
+| Media Handling | Cloudinary |
+| Deployment | Vercel |
 
-Purchase credits via PayPal to generate more images securely.
+> 📷 **(插图建议3)**：放系统架构图（architecture-diagram.png）  
+> 展示前端、后端、AI、Cloudinary、PayPal 的交互关系  
+>  
+> 例如：
+> ![System Architecture](./assets/architecture-diagram.png)
 
-The app integrates Gemini AI and Replicate AI APIs for content generation, providing both creative and conversational AI features within a modern SaaS architecture.
+---
 
-This project was inspired by the Udemy course
-AI SaaS Image Generator & Chatbot with React, Next.js & TypeScript
-
-## Features
-
-✅ Text-to-Image Generation (Gemini AI + Replicate AI)
-✅ Real-time Chatbot Integration
-✅ Clerk Authentication (Sign up, Login, Dashboard access)
-✅ PayPal Credit-based Billing System
-✅ Cloudinary-powered Media Management
-✅ Responsive UI with Shadcn UI + Tailwind CSS
-✅ Dark / Light Theme Support
-✅ Deployed on Vercel with Global Accessibility
-
-Home Page:
-<img width="783" height="834" alt="image" src="https://github.com/user-attachments/assets/a092c680-25aa-4e10-80ee-fc7d4dcc37f7" />
-
-Chat Page:
-<img width="670" height="536" alt="image" src="https://github.com/user-attachments/assets/f616cbda-9d68-453a-989f-b2a36a8f2fb2" />
-
-
-## ⚙️ Tech Stack
-Layer	Technologies
-Frontend	React, Next.js 15 (App Router), TypeScript, Shadcn UI, Tailwind CSS
-Backend	Next.js Server Actions, MongoDB, Mongoose
-AI Integration	Google Gemini AI, Replicate AI
-Authentication & Payments	Clerk Auth, PayPal SDK
-Media Handling	Cloudinary
-Deployment	Vercel
-
-📷 （插图建议2）：放一张系统架构图（Architecture Diagram），展示前端、后端、AI、数据库、Cloudinary、PayPal 的交互关系。
-
-## 🛠️ Installation & Setup
-# 1️⃣ Clone repository
-git clone https://github.com/KeitouYa/ai_image_generator_chatbot.git
+## ⚙️ Getting Started
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/YourUsername/ai_image_generator_chatbot.git
 
 # 2️⃣ Install dependencies
 npm install
 
 # 3️⃣ Set up environment variables (.env)
-# Include your keys:
-# GEMINI_API_KEY=
-# REPLICATE_API_TOKEN=
-# MONGODB_URI=
-# NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-# CLERK_SECRET_KEY=
-# CLOUDINARY_API_KEY=
-# PAYPAL_CLIENT_ID=
-# PAYPAL_SECRET=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_PAYPAL_CLIENT_ID=
+PAYPAL_SECRET_KEY=
+MONGODB_URI=
+REPLICATE_API_TOKEN=
+GEMINI_API_KEY=
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
 
-# 4️⃣ Run locally
+# 4️⃣ Run the app locally
 npm run dev
-
-# App will run on http://localhost:3000
-
-
-📷 （插图建议3）：插入一张运行截图（例如本地 http://localhost:3000
- 的首页或成功登录画面）
-
-## 🧠 Project Structure
-ai_image_generator_chatbot/
-├── app/               # Next.js App Router pages & layouts
-├── components/        # Reusable UI components (Button, Navbar, Cards)
-├── actions/           # Server actions for AI & payment
-├── lib/               # Utility functions, config, API setup
-├── public/            # Static assets
-└── styles/            # Global Tailwind styles
-
-## 💳 Credits & Authentication Flow
-
-1️⃣ New users sign up with Clerk Auth
-2️⃣ Each account gets limited free credits
-3️⃣ Users can purchase additional credits via PayPal
-4️⃣ Credit balance updates automatically in real-time
-
-📷 （插图建议4）：放支付界面或 Clerk 登录界面截图
-
-## 🌐 Deployment
-
-Deployed on Vercel, optimized for SEO and global delivery via server-side rendering.
-Environment variables securely managed through Vercel dashboard.
-
-📷 （插图建议5）：可放一张线上网站截图（Vercel 部署成功界面或生产环境URL展示图）
-
-## 🧑‍💻 Author
-
-Wu Minghui (Daniel Wu)
-📍 Northeastern University — MS in Information Systems
-💼 LinkedIn
- | Portfolio
- | GitHub
