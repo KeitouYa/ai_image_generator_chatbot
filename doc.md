@@ -2,7 +2,9 @@
 
 ## docs 目录下的 5 个文档文件说明
 
-  
+  **<img width="311" height="166" alt="image" src="https://github.com/user-attachments/assets/b38660fe-9ab8-45be-959c-e7f4502dabcb" />
+
+
 
 这 5 个文档属于 Phase 9（文档与开发体验），分别说明如下：
 
